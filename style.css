@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Alterando a fonte */
+    background-image: url('pexels-castorly-stock-4276182.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 5em;
+    color: #FFFF66; /* Amarelo mais claro */
+    position: absolute;
+    animation: fade 5s ease-in-out infinite; /* Animando o fade */
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
